@@ -1,16 +1,87 @@
-# React + Vite
+# 🍰 Golden Crust Bakery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive website developed for Golden Crust Bakery as part of my Future Interns Full Stack Web Development internship project.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Website:** https://future-fs-03-dun-two.vercel.app/
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Golden Crust Bakery is a bakery website designed to present bakery products and specialties through an attractive and user-friendly interface. The project demonstrates how a website can help a local business showcase its offerings and make business information easier for customers to find.
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Attractive bakery-themed user interface
+- Product and specialties showcase
+- About section
+- Contact information section
+- Location section
+- Responsive layout for different screen sizes
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git and GitHub
+- Vercel
+
+## 🚀 Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/pvnkulal45-svg/FUTURE_FS_03.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd FUTURE_FS_03
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📂 Project Structure
+
+```text
+FUTURE_FS_03/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🎯 Project Objective
+
+The objective of this project is to apply frontend web development skills to create a professional website concept for a local business.
+
+## 👨‍💻 Developer
+
+**Pavan Kumar P**
+
+- GitHub: https://github.com/pvnkulal45-svg
+- Live Project: https://future-fs-03-dun-two.vercel.app/
+
+---
+
+*Developed as part of my web development learning journey.*
