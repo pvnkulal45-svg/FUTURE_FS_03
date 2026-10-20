@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2c1f18" />
+      <stop offset="100%" stop-color="#140b07" />
+    </radialGradient>
+    <linearGradient id="creamBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="50%" stop-color="#f5ecdf" />
+      <stop offset="100%" stop-color="#e8dcce" />
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#936d15" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgLight)" rx="24" />
+  <circle cx="300" cy="300" r="220" fill="#f5ecdf" opacity="0.04" />
+
+  <!-- Stand -->
+  <ellipse cx="300" cy="510" rx="190" ry="24" fill="#0b0604" opacity="0.7" />
+  <ellipse cx="300" cy="495" rx="175" ry="17" fill="url(#goldShine)" />
+  <path d="M 270 495 L 285 535 L 315 535 L 330 495 Z" fill="url(#goldShine)" />
+  <ellipse cx="300" cy="535" rx="70" ry="12" fill="url(#goldShine)" />
+
+  <!-- Tier 1 -->
+  <path d="M 180 370 Q 300 410 420 370 L 420 445 Q 300 485 180 445 Z" fill="url(#creamBody)" />
+  <ellipse cx="300" cy="370" rx="120" ry="30" fill="#fffdfa" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Tier 2 -->
+  <path d="M 215 250 Q 300 285 385 250 L 385 325 Q 300 360 215 325 Z" fill="url(#creamBody)" />
+  <ellipse cx="300" cy="250" rx="85" ry="22" fill="#fffdfa" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Tier 3 -->
+  <path d="M 245 160 Q 300 190 355 160 L 355 220 Q 300 250 245 220 Z" fill="url(#creamBody)" />
+  <ellipse cx="300" cy="160" rx="55" ry="16" fill="#fffdfa" stroke="url(#goldShine)" stroke-width="2" />
+
+  <!-- Berries & Figs on Top -->
+  <circle cx="280" cy="148" r="11" fill="#7d1a38" />
+  <circle cx="305" cy="144" r="12" fill="#2d1e3d" />
+  <circle cx="325" cy="149" r="10" fill="#c42348" />
+  <circle cx="295" cy="154" r="9" fill="#1e182e" />
+
+  <!-- White chocolate drips and pearls -->
+  <circle cx="230" cy="270" r="5" fill="#ffffff" />
+  <circle cx="245" cy="285" r="4" fill="url(#goldShine)" />
+  <circle cx="365" cy="275" r="5" fill="#ffffff" />
+  <circle cx="380" cy="290" r="4" fill="url(#goldShine)" />
+
+  <!-- Gold leaf speckles -->
+  <g fill="url(#goldShine)">
+    <polygon points="290,135 296,137 294,142 288,140" />
+    <polygon points="320,138 327,140 324,146 317,143" />
+    <polygon points="260,240 268,242 264,248 257,245" />
+    <polygon points="345,245 352,248 349,254 342,250" />
+  </g>
+
+  <text x="300" y="565" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="700" letter-spacing="3" fill="#d4af37" text-anchor="middle">AURA VANILLA &amp; WILD BERRY</text>
+</svg>

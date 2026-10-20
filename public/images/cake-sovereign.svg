@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a1a12" />
+      <stop offset="100%" stop-color="#120904" />
+    </radialGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#936d15" />
+    </linearGradient>
+    <linearGradient id="chocBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#281810" />
+      <stop offset="50%" stop-color="#452a1d" />
+      <stop offset="100%" stop-color="#1c0f08" />
+    </linearGradient>
+    <linearGradient id="glazeDrip" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c0e07" />
+      <stop offset="100%" stop-color="#381d10" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="600" fill="url(#bgDark)" rx="24" />
+  <circle cx="300" cy="300" r="220" fill="#d4af37" opacity="0.06" filter="url(#glow)" />
+
+  <!-- Marble Pedestal Stand -->
+  <ellipse cx="300" cy="510" rx="190" ry="24" fill="#090503" opacity="0.7" />
+  <ellipse cx="300" cy="495" rx="180" ry="18" fill="url(#goldShine)" />
+  <path d="M 270 495 L 285 535 L 315 535 L 330 495 Z" fill="url(#goldShine)" />
+  <ellipse cx="300" cy="535" rx="70" ry="12" fill="url(#goldShine)" />
+
+  <!-- Tier 1: Bottom Layer -->
+  <path d="M 170 380 Q 300 420 430 380 L 430 450 Q 300 490 170 450 Z" fill="url(#chocBody)" />
+  <ellipse cx="300" cy="380" rx="130" ry="32" fill="#3a2216" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Tier 2: Middle Layer -->
+  <path d="M 205 280 Q 300 315 395 280 L 395 350 Q 300 385 205 350 Z" fill="url(#chocBody)" />
+  <ellipse cx="300" cy="280" rx="95" ry="24" fill="#321c12" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Tier 3: Top Layer -->
+  <path d="M 235 190 Q 300 220 365 190 L 365 250 Q 300 280 235 250 Z" fill="url(#chocBody)" />
+  <ellipse cx="300" cy="190" rx="65" ry="18" fill="#201109" stroke="url(#goldShine)" stroke-width="2" />
+
+  <!-- Glossy Ganache Drips -->
+  <path d="M 235 190 Q 250 225 255 205 Q 270 235 280 200 Q 295 240 305 202 Q 325 238 335 204 Q 350 225 365 190" fill="url(#glazeDrip)" opacity="0.95" />
+
+  <!-- Cream Rosettes on Top -->
+  <circle cx="300" cy="180" r="16" fill="#fcf5e8" />
+  <circle cx="270" cy="185" r="13" fill="#fcf5e8" />
+  <circle cx="330" cy="185" r="13" fill="#fcf5e8" />
+
+  <!-- Fresh Raspberries -->
+  <circle cx="300" cy="168" r="9" fill="#a81b33" />
+  <circle cx="265" cy="174" r="8" fill="#bd223d" />
+  <circle cx="335" cy="174" r="8" fill="#93152a" />
+
+  <!-- 24K Edible Gold Leaf Flakes Floating -->
+  <g fill="url(#goldShine)" filter="url(#glow)">
+    <polygon points="295,150 302,152 300,158 293,156" />
+    <polygon points="340,165 348,168 344,175 336,170" />
+    <polygon points="255,160 262,162 258,169 251,166" />
+    <polygon points="230,225 238,228 235,234 227,230" />
+    <polygon points="370,220 379,223 376,231 367,226" />
+    <polygon points="190,320 200,323 196,331 186,326" />
+    <polygon points="410,315 420,318 415,327 405,322" />
+  </g>
+
+  <!-- Sparkle Stars -->
+  <g fill="#ffe699" opacity="0.8">
+    <path d="M 160 180 Q 170 180 170 170 Q 170 180 180 180 Q 170 180 170 190 Q 170 180 160 180 Z" />
+    <path d="M 440 220 Q 450 220 450 210 Q 450 220 460 220 Q 450 220 450 230 Q 450 220 440 220 Z" />
+    <path d="M 300 110 Q 308 110 308 102 Q 308 110 316 110 Q 308 110 308 118 Q 308 110 300 110 Z" />
+  </g>
+
+  <!-- Label badge -->
+  <text x="300" y="565" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="700" letter-spacing="3" fill="#d4af37" text-anchor="middle">THE SOVEREIGN NOIR</text>
+</svg>

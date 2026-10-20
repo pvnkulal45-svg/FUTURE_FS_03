@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgHoney" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#322212" />
+      <stop offset="100%" stop-color="#140b04" />
+    </radialGradient>
+    <linearGradient id="honeyBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c98e44" />
+      <stop offset="50%" stop-color="#e2a654" />
+      <stop offset="100%" stop-color="#af7833" />
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#936d15" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgHoney)" rx="24" />
+
+  <!-- Stand -->
+  <ellipse cx="300" cy="510" rx="190" ry="24" fill="#0c0703" opacity="0.7" />
+  <ellipse cx="300" cy="495" rx="175" ry="17" fill="url(#goldShine)" />
+  <path d="M 270 495 L 285 535 L 315 535 L 330 495 Z" fill="url(#goldShine)" />
+  <ellipse cx="300" cy="535" rx="70" ry="12" fill="url(#goldShine)" />
+
+  <!-- Multi-layered honey sponge -->
+  <path d="M 180 340 Q 300 380 420 340 L 420 450 Q 300 490 180 450 Z" fill="url(#honeyBody)" />
+  <ellipse cx="300" cy="340" rx="120" ry="30" fill="#f0be6e" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Honeycomb hexagonal geometric shards -->
+  <g fill="url(#goldShine)" opacity="0.9">
+    <polygon points="300,160 325,175 325,205 300,220 275,205 275,175" stroke="#f6df94" stroke-width="2" />
+    <polygon points="340,190 360,202 360,225 340,237 320,225 320,202" opacity="0.8" />
+    <polygon points="260,190 280,202 280,225 260,237 240,225 240,202" opacity="0.8" />
+  </g>
+
+  <!-- Caramel drip -->
+  <path d="M 180 340 Q 200 380 210 355 Q 235 390 250 350 Q 280 405 300 355 Q 330 395 350 350 Q 380 385 420 340" fill="#b06c25" />
+
+  <!-- Whipped cream & toffee toffees -->
+  <circle cx="300" cy="330" r="16" fill="#fdfcf8" />
+  <circle cx="260" cy="336" r="12" fill="#fdfcf8" />
+  <circle cx="340" cy="336" r="12" fill="#fdfcf8" />
+
+  <text x="300" y="565" font-family="'Cormorant Garamond', serif" font-size="19" font-weight="700" letter-spacing="3" fill="#d4af37" text-anchor="middle">AMBER HONEYCOMB CRUNCH</text>
+</svg>

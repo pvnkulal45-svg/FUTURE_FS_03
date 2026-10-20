@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgRose" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#331b22" />
+      <stop offset="100%" stop-color="#14070a" />
+    </radialGradient>
+    <linearGradient id="roseBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e29ca6" />
+      <stop offset="50%" stop-color="#f2b6bf" />
+      <stop offset="100%" stop-color="#d18793" />
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#936d15" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgRose)" rx="24" />
+
+  <!-- Stand -->
+  <ellipse cx="300" cy="510" rx="190" ry="24" fill="#0c0406" opacity="0.7" />
+  <ellipse cx="300" cy="495" rx="175" ry="17" fill="url(#goldShine)" />
+  <path d="M 270 495 L 285 535 L 315 535 L 330 495 Z" fill="url(#goldShine)" />
+  <ellipse cx="300" cy="535" rx="70" ry="12" fill="url(#goldShine)" />
+
+  <!-- Cake layers -->
+  <path d="M 190 350 Q 300 390 410 350 L 410 445 Q 300 485 190 445 Z" fill="url(#roseBody)" />
+  <ellipse cx="300" cy="350" rx="110" ry="28" fill="#f8ced5" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <path d="M 225 240 Q 300 270 375 240 L 375 320 Q 300 350 225 320 Z" fill="url(#roseBody)" />
+  <ellipse cx="300" cy="240" rx="75" ry="20" fill="#fce2e6" stroke="url(#goldShine)" stroke-width="2" />
+
+  <!-- Rose Petals & Lychee pearls -->
+  <circle cx="300" cy="225" r="14" fill="#c93856" />
+  <circle cx="280" cy="228" r="11" fill="#e86b84" />
+  <circle cx="320" cy="228" r="11" fill="#e86b84" />
+  <ellipse cx="300" cy="220" rx="6" ry="12" fill="#fff5f6" opacity="0.8" />
+
+  <!-- Gold leaf -->
+  <g fill="url(#goldShine)">
+    <polygon points="295,190 302,193 299,199 292,196" />
+    <polygon points="330,230 338,233 335,240 327,236" />
+    <polygon points="265,232 273,235 269,242 262,238" />
+  </g>
+
+  <text x="300" y="565" font-family="'Cormorant Garamond', serif" font-size="19" font-weight="700" letter-spacing="3" fill="#d4af37" text-anchor="middle">VELVET ROSE &amp; LYCHEE PEARL</text>
+</svg>

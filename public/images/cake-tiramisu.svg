@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgCoffee" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d1c13" />
+      <stop offset="100%" stop-color="#110905" />
+    </radialGradient>
+    <linearGradient id="tiramisuBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#462c1e" />
+      <stop offset="50%" stop-color="#5a3a29" />
+      <stop offset="100%" stop-color="#3b2418" />
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#936d15" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgCoffee)" rx="24" />
+
+  <!-- Stand -->
+  <ellipse cx="300" cy="510" rx="190" ry="24" fill="#090503" opacity="0.7" />
+  <ellipse cx="300" cy="495" rx="175" ry="17" fill="url(#goldShine)" />
+  <path d="M 270 495 L 285 535 L 315 535 L 330 495 Z" fill="url(#goldShine)" />
+  <ellipse cx="300" cy="535" rx="70" ry="12" fill="url(#goldShine)" />
+
+  <!-- Tiramisu Mascarpone & Espresso Layers -->
+  <path d="M 175 350 Q 300 390 425 350 L 425 450 Q 300 490 175 450 Z" fill="url(#tiramisuBody)" />
+  <ellipse cx="300" cy="350" rx="125" ry="32" fill="#faebd7" stroke="url(#goldShine)" stroke-width="1.5" />
+
+  <!-- Mascarpone piping dots across surface -->
+  <g fill="#faebd7" stroke="#e0cbb2" stroke-width="1">
+    <circle cx="215" cy="350" r="16" />
+    <circle cx="245" cy="345" r="17" />
+    <circle cx="280" cy="340" r="18" />
+    <circle cx="315" cy="340" r="18" />
+    <circle cx="350" cy="345" r="17" />
+    <circle cx="380" cy="350" r="16" />
+    <circle cx="250" cy="365" r="17" />
+    <circle cx="285" cy="365" r="18" />
+    <circle cx="320" cy="365" r="18" />
+    <circle cx="355" cy="365" r="17" />
+  </g>
+
+  <!-- Fine Cocoa Powder Dusting -->
+  <ellipse cx="300" cy="350" rx="100" ry="25" fill="#381b10" opacity="0.35" />
+
+  <!-- Dark Chocolate Curls & Coffee beans -->
+  <ellipse cx="300" cy="335" rx="8" ry="5" fill="#1f110a" stroke="url(#goldShine)" stroke-width="1" />
+  <ellipse cx="265" cy="340" rx="8" ry="5" fill="#1f110a" stroke="url(#goldShine)" stroke-width="1" />
+  <ellipse cx="335" cy="340" rx="8" ry="5" fill="#1f110a" stroke="url(#goldShine)" stroke-width="1" />
+
+  <!-- Gold leaf speckles -->
+  <g fill="url(#goldShine)">
+    <polygon points="298,315 304,318 301,324 295,321" />
+    <polygon points="340,328 347,331 344,337 337,334" />
+    <polygon points="255,328 262,331 258,337 251,334" />
+  </g>
+
+  <text x="300" y="565" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="700" letter-spacing="3" fill="#d4af37" text-anchor="middle">TIRAMISU DOLCEZZA</text>
+</svg>
